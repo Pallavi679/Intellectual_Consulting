@@ -321,6 +321,8 @@ if (isset($_POST["submit"])) {
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#efiling">EFiling</a></li>
+                    <li><a class="nav-link scrollto" href="#consultancy">Consultancy</a></li>
                     <li><a class="nav-link scrollto" href="#noc">NOC</a></li>
                     <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
                     <li><a class="nav-link scrollto" href="index.php#services">Services</a></li>
@@ -365,8 +367,94 @@ if (isset($_POST["submit"])) {
     </header><!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <br>
+    <br><br>
     <main id="main">
+        <section id="efiling" class="services">
+            <div class="container">
+
+                <div class="section-title" data-aos="zoom-out">
+                    <h2>Efiling</h2>
+                    <p>Intellectual Property Rights</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="icon-box" data-aos="zoom-in-left">
+                            <div class="icon"><i class="bi bi-pencil-square" style="color: #ff689b;"></i></div>
+                            <h4 class="title"><a href="">Patent</a></h4>
+                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+                            <div class="icon"><i class="bi bi-briefcase" style="color: #e9bf06;"></i></div>
+                            <h4 class="title"><a href="">Copyright</a></h4>
+                            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
+                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+                            <div class="icon"><i class="bi bi-journal-check" style="color: #3fcdc7;"></i></div>
+                            <h4 class="title"><a href="">Trademark</a></h4>
+                            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
+                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+                            <div class="icon"><i class="bi bi-journal-check" style="color: #3fcdc7;"></i></div>
+                            <h4 class="title"><a href="">SICLD</a></h4>
+                            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Services Section -->
+
+        <section id="consultancy" class="services">
+            <div class="container">
+
+                <div class="section-title" data-aos="zoom-out">
+                    <h2>Consultancy</h2>
+                    <p>Intellectual Property Rights</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="icon-box" data-aos="zoom-in-left">
+                            <div class="icon"><i class="bi bi-pencil-square" style="color: #ff689b;"></i></div>
+                            <h4 class="title"><a href="">Patent</a></h4>
+                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+                            <div class="icon"><i class="bi bi-briefcase" style="color: #e9bf06;"></i></div>
+                            <h4 class="title"><a href="">Copyright</a></h4>
+                            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
+                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+                            <div class="icon"><i class="bi bi-journal-check" style="color: #3fcdc7;"></i></div>
+                            <h4 class="title"><a href="">Trademark</a></h4>
+                            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
+                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+                            <div class="icon"><i class="bi bi-journal-check" style="color: #3fcdc7;"></i></div>
+                            <h4 class="title"><a href="">SICLD</a></h4>
+                            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Services Section -->
+
         <section id="noc" class="about">
             <div class="container">
 
@@ -455,6 +543,7 @@ if (isset($_POST["submit"])) {
 
             </div>
         </section>
+
     </main>
     <footer id="footer">
         <div class="container">

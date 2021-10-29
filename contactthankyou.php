@@ -108,7 +108,7 @@
           <div class="jumbotron jumbotron-fluid mt-125 spacing_from_top jumbotron_thankyou">
             <div class="container">
               <h1 class="display-4">Thank You!</h1>
-              <p class="lead">Your NOC letter has been sent to the your respectively department head, IPR Cell and personal mail.</p>
+              <p class="lead">Your Message has been received by IPR EPortal.</p>
             </div>
           </div>
         </div>
